@@ -1,0 +1,191 @@
+body{
+    background: linear-gradient(to bottom, #CEF1F3 100%, #98E2C6 100%);
+    margin: 0px;
+    font-family: tahoma;
+    text-align: center;
+    
+}
+/* GLOBAL */
+.secao{
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.paragrafo{
+    font-size: 21px;
+    text-align: justify;
+    line-height: 28px;
+    margin: 10px auto;
+    width: 980px;
+    }
+/*1° secao*/
+.topo{
+    background: linear-gradient(to bottom, #98E2C6 80%, #CEF1F3 90%);
+    }
+
+.topo img{
+        width: 200px;
+        height:200px
+    }
+
+.paragrafo-topo{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    }
+.link-topo{
+    margin: 0px 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #1d1d1d;
+    border-bottom: #1d1d1d solid 2px;
+}    
+/*2° secao*/
+.banner{
+    padding-top: 0;
+    margin-top: 50px;
+}
+
+.banner img{
+
+    border: 9px solid#362C28;
+    border-image-slice: 1;
+    border-radius: 65px;   
+}
+/*Destaque*/
+span{
+    font-weight: bold;
+}
+
+/*3° secao*/
+.sobre{
+    padding: 30px 0px;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px
+}
+
+h2{
+    font-weight: bold;
+    color: #31416E;
+    font-size: 26px;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    padding-bottom: 5px;
+}
+
+.imagem{
+    width: 550px;
+    border: 9px solid#362C28;
+    border-radius: 35px; 
+}
+
+.texto-azul{
+    color:#2364aa;
+}
+
+/*4° secao*/
+
+.serviços, .contato{
+    background: linear-gradient(to bottom, #FFFFFF 100%, #CEF1F3 10%);
+    background: linear-gradient(to bottom, #CEF1F3 10%, #FFFFFF 75%);
+}
+
+h2{
+    font-weight: bold;
+    color: #31416E;
+    font-size: 26px;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    padding-bottom: 5px;
+}
+
+.paragrafo-serviços{
+    line-height: 42px;
+    width: 700px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.lista-serviços{
+    width: 135px;
+    margin: 40px auto 40px;
+}
+
+.item-serviços{
+    font-size: 22px;
+    line-height: 42px;
+    text-align: left;
+}
+
+/*5° secao*/
+.corretores{
+    padding: 30px 0px;
+    margin: 25px 0px;
+}
+
+.corretores a{
+    text-decoration: none;
+    border-bottom: 2px solid transparent; /* Adiciona uma borda inicial transparente */
+    color: #485696; /* Cor do texto do link */
+    transition: border-color 0.3s ease;
+}
+
+/*6° secao*/
+.contato{
+    padding: 30px 0px;
+    margin: 25px 0px;
+}
+.contato iframe{
+    border: #362C28 solid 5px;
+    border-radius: 15px;
+}
+
+.paragrafo-contato{
+    color: #fff;
+    background-color: #485696;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.paragrafo-contato .texto-amarelo{
+    font-size: 22px;
+}
+
+.lista-contato{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+.link-lista {
+    background-color: #485696;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.link-lista:hover {
+    background-color: #31416E;
+    color: white;
+}
+
+.link-lista a{
+    text-decoration: none; /* Remove a decoração de link padrão */
+    color: white;
+}
